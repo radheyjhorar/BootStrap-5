@@ -1,0 +1,46 @@
+.container {
+    border: 5px solid green;
+}
+.row {
+    border: 5px solid fuchsia;
+}
+.box-1 {
+    background: skyblue;
+}
+.box-2 {
+    background: chartreuse;
+}
+.box-3 {
+    background: burlywood;
+}
+.box-4 {
+    background: seagreen;
+}
+.box-5 {
+    background: palegreen;
+}
+.box-6 {
+    background: goldenrod;
+}
+ .yellow {
+    background: yellow;
+    
+ }
+ .green {
+    background: green;
+ }
+ .red {
+    background: red;
+ }
+ .blue {
+    background: blue;
+    
+ }
+ .pink {
+    background: pink;
+ }
+ .orange {
+    background: orange;
+    
+ }
+
