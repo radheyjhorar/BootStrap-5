@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +12,85 @@
     <!-- Costum CSS Link -->
     <link rel="stylesheet" href="assets/css/test.css">
 </head>
+
 <body>
     <div class="container">
         <div class="row p-4">
-            <div class="col-12 py-3 text-center">
+            <div class="col-12 py-3 text-center ">
                 <h2 class="text-danger">BootStrap Table Classes</h2>
             </div>
             <div class="col-12 py-3">
-                <table class="table table-primary">
+                <div class="table-responsive">
+                    <table class="table table-hover table-borderless caption-top">
+                        <caption>List Of Users</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col" class="table-info">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td class="table-danger">Mark</td>
+                                <td>Otto</td>
+                                <td>@Mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacobe</td>
+                                <td class="table-active">THornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>@twitter</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-12 py-3">
+                <table class="table table-striped table-info ">
                     <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@Mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacobe</td>
+                            <td>THornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2" class="table-active">Larry the Bird</td>
+                            <td>@twitter</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-12 py-3">
+                <table class="table table-bordered">
+                    <thead class="table-dark">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">First</th>
@@ -44,17 +115,120 @@
                             <th scope="row">3</th>
                             <td colspan="2">Larry the Bird</td>
                             <td>@twitter</td>
-                            
+
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row">Total</th>
+                            <td colspan="2">1000</td>
+                            <td>Final</td>
+
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="col-12 py-3">
+                <table class="table table-sm ">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@Mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacobe</td>
+                            <td>THornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2" class="table-active">Larry the Bird</td>
+                            <td>@twitter</td>
+
                         </tr>
                     </tbody>
                 </table>
             </div>
+
+            <div class="col-12 py-3">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@Mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacobe</td>
+                            <td>THornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">First</th>
+                                            <th scope="col">Last</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@Mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacobe</td>
+                                            <td>THornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2" class="table-active">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
         </div>
     </div>
-    
+
 
 
     <!--BootStrap 5 JS CDN Link-->
     <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
 </body>
+
 </html>
